@@ -1,0 +1,97 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    height: 5.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .i2c-logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+  }
+  
+  .links-container {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .links {
+    display: flex;
+    align-items: center;
+    column-gap: 2.2rem;
+    flex-shrink: 0;
+    margin: 1.6rem 3.2rem 1.5rem 0rem;
+  }
+  
+  .link {
+    color: #505050;
+    font-family: "Inter", "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2125;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  
+  .contact-us {
+    background-color: #46b0e6;
+    border: solid 0.1rem #46b0e6;
+    border-radius: 4rem;
+    box-shadow: 0 1rem 4rem rgba(70, 176, 230, 0.6999999881);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .links-container {
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 5.1rem;
+      left: 0;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      display: none;
+    }
+  
+    .links {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .link {
+      padding: 10px 20px;
+      width: 100%;
+      text-align: left;
+    }
+  
+    .contact-us {
+      width: 100%;
+    }
+  
+    .menu-open .links-container {
+      display: flex;
+    }
+  }
+  

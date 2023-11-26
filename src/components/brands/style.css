@@ -1,0 +1,20 @@
+.info {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    .card {
+      background-color: #ffffff !important;
+      box-shadow: none !important;
+      width: 333px;
+      .card-heading {
+        color: #f89d21;
+      }
+      .para {
+        color: #515151;
+        font-size: 14px;
+      }
+    }
+  }

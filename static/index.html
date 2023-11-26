@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <header class="header">
+        <img class="i2c-logo" src="../src/assets/logo.png" alt="i2c logo" />
+        <div
+          class="menu-toggle"
+          onclick="toggleMenu()"
+          aria-label="Toggle Menu"
+        >
+          <span class="menu-icon">&#9776;</span>
+        </div>
+        <div class="links-container" id="linksContainer">
+          <div class="links">
+            <a class="link" href="#">About us</a>
+            <a class="link" href="#">Registration</a>
+            <a class="link" href="#">Careers</a>
+          </div>
+          <button class="contact-us" aria-label="Contact us button">
+            Contact us
+          </button>
+        </div>
+      </header>
+      <section class="hero">
+        <div class="hero-container">
+          <div class="text-container">
+            <div class="text">
+              <p class="heading">
+                Lorem ipsum
+                <span class="dollar" aria-hidden="true">dolor</span>
+                sit amet yo 👋
+              </p>
+            </div>
+            <div class="card-container">
+              <div class="card">
+                <div class="content-container">
+                  <img
+                    src="../src/assets/user-one.png"
+                    alt="User One"
+                    width="64"
+                    height="64"
+                  />
+                  <div>
+                    <h1 class="card-heading">Andrew Schultz</h1>
+                    <p class="para">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vitae, in tristique senectus dui pharetra sit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="content-container">
+                  <div>
+                    <img
+                      src="../src/assets/user-two.png"
+                      alt="User Two"
+                      width="64"
+                      height="64"
+                    />
+                  </div>
+                  <div>
+                    <h1 class="card-heading">Andrew Schultz</h1>
+                    <p class="para">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vitae, in tristique senectus dui pharetra sit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="content-container">
+                  <img
+                    src="../src/assets/user-three.png"
+                    alt="User Three"
+                    width="64"
+                    height="64"
+                  />
+                  <div>
+                    <h1 class="card-heading">Andrew Schultz</h1>
+                    <p class="para">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vitae, in tristique senectus dui pharetra sit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="empty" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div>
+            <img
+              src=".././src/assets/hero-sdie.png"
+              alt="Hero Side"
+              class="hero-img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="info">
+        <div class="card">
+          <div class="content-container">
+            <img
+              src="../src/assets/suppo.png"
+              alt="Support"
+              width="64"
+              height="64"
+            />
+            <div>
+              <h1 class="card-heading">24/7 Support</h1>
+              <p class="para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content-container">
+            <div>
+              <img
+                src="../src/assets/suppo.png"
+                alt="Support"
+                width="64"
+                height="64"
+              />
+            </div>
+            <div>
+              <h1 class="card-heading">1000+ of reviews</h1>
+              <p class="para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content-container">
+            <img
+              src="../src/assets/more.png"
+              alt="More"
+              width="64"
+              height="64"
+            />
+            <div>
+              <h1 class="card-heading">And more!</h1>
+              <p class="para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="trested-by">
+        <div class="trustedby-text">
+          <img
+            src="../src//assets/trusted-by.png"
+            alt="Trusted By"
+            width="205"
+            height="54"
+          />
+          <p class="sub-heaidng-of-thig">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in
+            tristique senectus dui pharetra sit.
+          </p>
+          <p></p>
+        </div>
+        <div class="slider-container">
+          <button
+            class="arrow left"
+            onclick="prevSlide()"
+            aria-label="Previous Slide"
+          >
+            <img src="../src/assets/left.png" alt="left" />
+          </button>
+          <div class="slider">
+            <div class="slides">
+              <div class="slide">
+                <img src="../src/assets/slider-one.png" alt="Image 1" />
+              </div>
+              <div class="slide">
+                <img src="../src/assets/slider-two.png" alt="Image 2" />
+              </div>
+              <div class="slide">
+                <img src="../src/assets/slider-three.png" alt="Image 3" />
+              </div>
+              <div class="slide">
+                <img src="../src/assets/slider-one.png" alt="Image 4" />
+              </div>
+              <div class="slide">
+                <img src="../src/assets/slider-two.png" alt="Image 5" />
+              </div>
+              <div class="slide">
+                <img src="../src/assets/slider-three.png" alt="Image 6" />
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="arrow right"
+            onclick="nextSlide()"
+            aria-label="Next Slide"
+          >
+            <img src="../src/assets/right.png" alt="right" />
+          </button>
+        </div>
+      </section>
+      <section class="registration">
+        <div class="registration-container">
+          <div class="registration-image">
+            <img
+              src="../src/assets/side.png"
+              alt="Registration Image"
+              width="505"
+              height="575"
+              class="hero-img"
+            />
+          </div>
+          <div class="registration-content">
+            <h1>Register</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in
+              tristique senectus dui pharetra sit.
+            </p>
+            <form id="registrationForm">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="company">Company:</label>
+                <input type="text" id="company" name="company" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <button type="submit" class="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <footer class="header">
+        <img class="i2c-logo" src="../src/assets/logo.png" alt="i2c logo" />
+        <div class="links-container">
+          <div class="links">
+            <a class="link" href="#">FAQs</a>
+            <a class="link" href="#">Privacy Policy</a>
+            <a class="link" href="#">Other</a>
+          </div>
+          <button class="contact-us" aria-label="Contact us button">
+            Contact us
+          </button>
+        </div>
+      </footer>
+      <span class="copy-right">
+        Copyright © 2023 i2c inc. All rights reserved.</span
+      >
+    </main>
+
+    <script src="./slider.js"></script>
+  </body>
+</html>

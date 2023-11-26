@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #ebf0ff url("../src/assets/background.png");
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+.sub-heaidng-of-thig {
+  width: 43%;
+}
+@media (max-width: 768px) {
+  .sub-heaidng-of-thig {
+    width: 65%;
+  }
+}
+.hero-img {
+  width: 100%;
+  height: auto;
+}

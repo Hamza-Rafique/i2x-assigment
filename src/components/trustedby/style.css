@@ -1,0 +1,78 @@
+.trested-by {
+  position: relative;
+  margin: 100px auto;
+}
+.trustedby-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 32px auto;
+}
+.slick-arrow {
+  width: 32px;
+  height: 32px;
+  font-size: 24px;
+  /* color: #46b0e6; */
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.left {
+  left: 16px;
+}
+
+.right {
+  right: 16px;
+}
+.registration-container {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+@media (max-width: 768px) {
+  .registration-container {
+    flex-direction: column;
+  }
+}
+
+.registration-content {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 48px;
+  gap: 48px;
+  box-shadow: 0 0 44px -20px #b9ceea;
+}
+@media (max-width: 768px) {
+  .registration-content {
+    padding: 30px;
+    gap: 22px;
+  }
+}
+#registrationForm {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+h1 {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 43.57px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #515151;
+  margin-bottom: 30px;
+}
