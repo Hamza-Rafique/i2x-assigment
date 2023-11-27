@@ -9,7 +9,7 @@ const RegistrationForm = () => {
           <div class="registration-image">
             <img
               src={side}
-              alt="Registration Image"
+              alt="Registration"
               width="505"
               height="575"
               class="hero-img"

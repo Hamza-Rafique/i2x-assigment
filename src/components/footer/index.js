@@ -12,13 +12,13 @@ const Footer = () => {
           <div class="links-container">
             <ul class="links">
               <li class="link">
-                <a href="#">FAQs</a>
+                <a href="https://www.example.com">FAQs</a>
               </li>
               <li class="link">
-                <a href="#">Privacy Policy</a>
+                <a href="https://www.example.com">Privacy Policy</a>
               </li>
               <li class="link">
-                <a href="#">Other</a>
+                <a href="https://www.example.com">Other</a>
               </li>
             </ul>
             <button class="contact-us" aria-label="Contact us button">

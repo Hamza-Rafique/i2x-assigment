@@ -11,13 +11,13 @@ const Header = () => {
       <div class="links-container" id="linksContainer">
         <ul class="links">
           <li class="link">
-            <a href="#">About us</a>
+            <a href="https://www.example.com">About us</a>
           </li>
           <li class="link">
-            <a href="#">Registration</a>
+            <a href="https://www.example.com">Registration</a>
           </li>
           <li class="link">
-            <a href="#">Careers</a>
+            <a href="https://www.example.com">Careers</a>
           </li>
         </ul>
         <button class="contact-us" aria-label="Contact us button">
