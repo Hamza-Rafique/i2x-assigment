@@ -4,3 +4,11 @@
   color: #515151;
   line-height: 6;
 }
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  height: 5.1rem;
+  margin-bottom: 2rem;
+}

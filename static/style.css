@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  max-width: 100%;
   padding: 0 15px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -64,8 +64,10 @@ body {
   flex-shrink: 0;
   margin: 1.6rem 3.2rem 1.5rem 0rem;
 }
-
-.link {
+ul {
+  list-style: none;
+}
+.link a {
   color: #505050;
   font-family: "Inter", "Source Sans Pro";
   font-size: 16px;
@@ -437,10 +439,18 @@ input {
 }
 @media (max-width: 768px) {
   .sub-heaidng-of-thig {
-   width: 65%;
+    width: 65%;
   }
 }
 .hero-img {
   width: 100%;
   height: auto;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  height: 5.1rem;
+  margin-bottom: 2rem;
 }

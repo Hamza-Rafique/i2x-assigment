@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,27 +8,23 @@
   </head>
 
   <body>
+    <header class="container header">
+      <img class="i2c-logo" src="../src/assets/logo.png" alt="i2c logo" />
+      <div class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle Menu">
+        <span class="menu-icon">&#9776;</span>
+      </div>
+      <div class="links-container" id="linksContainer">
+        <ul class="links">
+          <li class="link"><a href="#">About us</a></li>
+          <li class="link"><a href="#">Registration</a></li>
+          <li class="link"><a href="#">Careers</a></li>
+        </ul>
+        <button class="contact-us" aria-label="Contact us button">
+          Contact us
+        </button>
+      </div>
+    </header>
     <main class="container">
-      <header class="header">
-        <img class="i2c-logo" src="../src/assets/logo.png" alt="i2c logo" />
-        <div
-          class="menu-toggle"
-          onclick="toggleMenu()"
-          aria-label="Toggle Menu"
-        >
-          <span class="menu-icon">&#9776;</span>
-        </div>
-        <div class="links-container" id="linksContainer">
-          <div class="links">
-            <a class="link" href="#">About us</a>
-            <a class="link" href="#">Registration</a>
-            <a class="link" href="#">Careers</a>
-          </div>
-          <button class="contact-us" aria-label="Contact us button">
-            Contact us
-          </button>
-        </div>
-      </header>
       <section class="hero">
         <div class="hero-container">
           <div class="text-container">
@@ -247,23 +243,26 @@
         </div>
       </section>
       <hr />
-      <footer class="header">
+    </main>
+
+    <footer class="container">
+      <div class="footer">
         <img class="i2c-logo" src="../src/assets/logo.png" alt="i2c logo" />
         <div class="links-container">
-          <div class="links">
-            <a class="link" href="#">FAQs</a>
-            <a class="link" href="#">Privacy Policy</a>
-            <a class="link" href="#">Other</a>
-          </div>
+          <ul class="links">
+            <li class="link"><a href="#">FAQs</a></li>
+            <li class="link"><a href="#">Privacy Policy</a></li>
+            <li class="link"><a href="#">Other</a></li>
+          </ul>
           <button class="contact-us" aria-label="Contact us button">
             Contact us
           </button>
         </div>
-      </footer>
+      </div>
       <span class="copy-right">
         Copyright © 2023 i2c inc. All rights reserved.</span
       >
-    </main>
+    </footer>
 
     <script src="./slider.js"></script>
   </body>

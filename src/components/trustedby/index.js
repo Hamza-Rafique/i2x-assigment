@@ -12,7 +12,7 @@ const TrustedBy = () => {
   };
 
   return (
-    <section className="trusted-by">
+    <section className="trusted">
       <div className="trustedby-text">
         <img src={trustedby} alt="Trusted By" width="205" height="54" />
         <p className="sub-heading-of-this">
@@ -23,31 +23,31 @@ const TrustedBy = () => {
       <div className="slider-container">
         <Slider {...settings}>
           <div className="slide">
-            <img src={slider_one} alt="Image 1" />
+            <img src={slider_one} alt=" 1" />
           </div>
           <div className="slide">
-            <img src={slider_two} alt="Image 2" />
+            <img src={slider_two} alt=" 2" />
           </div>
           <div className="slide">
-            <img src={slider_three} alt="Image 3" />
+            <img src={slider_three} alt="3" />
           </div>
           <div className="slide">
-            <img src={slider_one} alt="Image 1" />
+            <img src={slider_one} alt="1" />
           </div>
           <div className="slide">
-            <img src={slider_two} alt="Image 2" />
+            <img src={slider_two} alt=" 2" />
           </div>
           <div className="slide">
-            <img src={slider_three} alt="Image 3" />
+            <img src={slider_three} alt=" 3" />
           </div>
           <div className="slide">
-            <img src={slider_one} alt="Image 1" />
+            <img src={slider_one} alt=" 1" />
           </div>
           <div className="slide">
-            <img src={slider_two} alt="Image 2" />
+            <img src={slider_two} alt=" 2" />
           </div>
           <div className="slide">
-            <img src={slider_three} alt="Image 3" />
+            <img src={slider_three} alt=" 3" />
           </div>
         </Slider>
       </div>

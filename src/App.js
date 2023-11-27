@@ -9,14 +9,16 @@ import {
 
 function App() {
   return (
-    <main class="container">
+    <>
       <Header />
-      <Banner />
-      <Brands />
-      <TrustedBy />
-      <RegistrationForm />
+      <main class="container">
+        <Banner />
+        <Brands />
+        <TrustedBy />
+        <RegistrationForm />
+      </main>
       <Footer />
-    </main>
+    </>
   );
 }
 
