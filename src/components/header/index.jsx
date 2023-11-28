@@ -4,7 +4,10 @@ import { logo } from "../../assets";
 const Header = () => {
   return (
     <header class="container header">
-      <img class="i2c-logo" src={logo} alt="i2c logo" />
+      <a href="https://www.example.com">
+        {" "}
+        <img class="i2c-logo" src={logo} alt="i2c logo" />
+      </a>
       <div class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle Menu">
         <span class="menu-icon">&#9776;</span>
       </div>

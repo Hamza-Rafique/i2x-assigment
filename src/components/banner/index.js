@@ -9,13 +9,13 @@ const Banner = () => {
       <div className="hero-container">
         <div className="text-container">
           <div className="text">
-            <p className="heading">
+            <h1 className="heading">
               Lorem ipsum
               <span className="dollar" aria-hidden="true">
                 dolor
               </span>
               sit amet yo 👋
-            </p>
+            </h1>
           </div>
           <div className="card-container">
             {Array.from({ length: 3 }).map((_, index) => (
@@ -27,9 +27,9 @@ const Banner = () => {
                     width="64"
                     height="64"
                   />
-                  <div>
-                    <h1 className="card-heading">Andrew Schultz</h1>
-                    <p className="para">
+                  <div className="para">
+                    <h2 className="card-heading">Andrew Schultz</h2>
+                    <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Vitae, in tristique senectus dui pharetra sit.
                     </p>

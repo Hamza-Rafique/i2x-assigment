@@ -78,8 +78,8 @@ ul {
 }
 
 .contact-us {
-  background-color: #46b0e6;
-  border: solid 0.1rem #46b0e6;
+  background-color:  #1d77a6;
+  border: solid 0.1rem  #1d77a6;
   border-radius: 4rem;
   box-shadow: 0 1rem 4rem rgba(70, 176, 230, 0.6999999881);
   color: #ffffff;
@@ -143,6 +143,7 @@ ul {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+  gap: 120px;
   margin-right: 1.4117rem;
 }
 @media (max-width: 768px) {
@@ -152,7 +153,6 @@ ul {
 }
 
 .text {
-  height: 11.7rem;
   margin-bottom: 6.3rem;
   position: relative;
 }
@@ -180,7 +180,7 @@ ul {
 }
 
 .dollar {
-  color: #46b0e6;
+  color:  #1d77a6;
   font-family: "Inter", "Source Sans Pro";
   font-size: 48px;
   font-weight: 700;
@@ -275,7 +275,7 @@ ul {
     box-shadow: none !important;
     width: 333px;
     .card-heading {
-      color: #f89d21;
+      color: #a9660a;
     }
     .para {
       color: #515151;
@@ -311,6 +311,8 @@ ul {
     align-items: center;
     width: 100%;
     transition: transform 0.5s ease-in-out;
+    text-align: center;
+    justify-content: center;
   }
 
   .slides {
@@ -333,8 +335,8 @@ ul {
   width: 32px;
   height: 32px;
   font-size: 24px;
-  /* background-color: #46b0e6; */
-  color: #46b0e6;
+  /* background-color:  #1d77a6.; */
+  color:  #1d77a6;
   border: none;
   border-radius: 50%;
   cursor: pointer;
@@ -421,10 +423,10 @@ input {
   width: 200px;
   height: 51px;
   border-radius: 40px;
-  border: 1px solid #f89d21;
+  border: 1px solid #a9660a;
   padding: 16px 32px;
   gap: 10px;
-  background-color: #f89d21;
+  background-color: #a9660a;
   color: #ffffff;
   box-shadow: 0 10px 34px 0 rgba(248, 157, 33, 0.5);
 }
@@ -453,4 +455,56 @@ input {
   flex-shrink: 0;
   height: 5.1rem;
   margin-bottom: 2rem;
+  .footer-links-container {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    .footer-links-container {
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .footer-links {
+      display: flex;
+      align-items: center;
+      column-gap: 2.2rem;
+      flex-shrink: 0;
+      margin: 1.6rem 3.2rem 1.5rem 0rem;
+      .footer-link a {
+        color: #505050;
+        font-family: "Inter", "Source Sans Pro";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.2125;
+        white-space: nowrap;
+        text-decoration: none;
+      }
+    }
+    .footer-contact-us {
+      background-color:  #1d77a6;
+      border: solid 0.1rem  #1d77a6;
+      border-radius: 4rem;
+      box-shadow: 0 1rem 4rem rgba(70, 176, 230, 0.6999999881);
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+
+    .footer-links-container {
+      flex-direction: column;
+      margin-bottom: 20px;
+      .footer-contact-us {
+        margin-bottom: 20px;
+      }
+    }
+  }
 }

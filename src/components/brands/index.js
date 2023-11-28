@@ -6,9 +6,9 @@ const BrandCard = ({ image, heading, para }) => (
   <div className="card">
     <div className="content-container">
       <img src={image} alt={heading} width="64" height="64" />
-      <div>
-        <h1 className="card-heading">{heading}</h1>
-        <p className="para">{para}</p>
+      <div className="para">
+        <h2 className="card-heading">{heading}</h2>
+        <p>{para}</p>
       </div>
     </div>
   </div>
